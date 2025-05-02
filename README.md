@@ -6,7 +6,7 @@ This script will download files from synapse.org.  This specific example will do
 
 # Preparing for data download
 #Get a list of Synapse IDs from https://www.synapse.org/Synapse:syn18486863/tables/ and place in a file.
-# Example MCF10A RNAseq dataset list is included as 'mcf10a-lincs_rnaseq-datasets.txt'
+#Example MCF10A RNAseq dataset list is included as 'mcf10a-lincs_rnaseq-datasets.txt'
 
 #Set  up a token at synapse.org and place in ~/.synapseConfig
 ```
