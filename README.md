@@ -24,26 +24,6 @@ pip install synapseclient
 python DL_SYNAPSE.py -f mcf10a-lincs_rnaseq-datasets.txt
 ```
 
-# Manipulate HDFH5 files
-## Installing HDF5 Tools
-conda install -c conda-forge hdf5 h5py pytables
-
-## Viewing File Structure
-### List the contents/structure
-h5ls syn15574159_abundance.h5
-
-### List with more details
-h5ls -v syn15574159_abundance.h5
-
-### Recursive listing (show all groups/datasets)
-h5ls -r syn15574159_abundance.h5
-
-## Examining File Contents
-### Dump entire contents
-h5dump syn15574159_abundance.h5
-
-### Export to text format
-h5dump -o syn15574159_abundance.output.txt syn15574159_abundance.h5
 
 # Convert HDF5 files to Gene Expression Matrices
 
@@ -70,7 +50,7 @@ h5py
 ## Install dependencies
 ```
 pip install numpy pandas h5py
-
+```
 ## Usage
 Basic Command Structure
 ```
