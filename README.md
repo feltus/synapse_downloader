@@ -28,7 +28,7 @@ python DL_SYNAPSE.py -f mcf10a-lincs_rnaseq-datasets.txt
 # Convert HDF5 files to Gene Expression Matrices
 
 ## H5 to GEM Converter
-A Python tool for converting Kallisto HDF5 RNA-seq outputs into gene expression matrices (GEM), with support for count data and TPM calculations.
+h5_to_gem.py is a tool for converting Kallisto HDF5 RNA-seq outputs into gene expression matrices (GEM), with support for count data and TPM calculations.
 
 ## Overview
 This utility processes Kallisto RNA-seq output files (.h5 format) and generates standardized gene expression matrices for downstream analysis. It can process a single file or batch process all files in a directory, combining them into a unified matrix.
