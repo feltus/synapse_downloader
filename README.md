@@ -14,7 +14,7 @@ This script will download files from synapse.org.  This specific example will do
 authtoken = <TOKEN>
 ```
 
-#Install Synapse Data Transfer clinet
+#Install Synapse Data Transfer client.  You might want to install in a conda or venv environment.
 ```
 pip install synapseclient
 ```
